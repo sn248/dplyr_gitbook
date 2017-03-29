@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Introduction {#intro}\n\nYou can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \\@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \\@ref(methods).\n\nFigures and tables with captions will be placed in `figure` and `table` environments, respectively.\n\n```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}\npar(mar = c(4, 4, .1, .1))\nplot(pressure, type = 'b', pch = 19)\n```\n\nReference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \\@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \\@ref(tab:nice-tab).\n\n```{r nice-tab, tidy=FALSE}\nknitr::kable(\n  head(iris, 20), caption = 'Here is a nice table!',\n  booktabs = TRUE\n)\n```\n\nYou can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].\n",
+    "created" : 1490541991844.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2816748180",
+    "id" : "12F06424",
+    "lastKnownWriteTime" : 1490746956,
+    "last_content_update" : 1490746956463,
+    "path" : "~/Documents/Git_repos/dplyr_gitbook/01-intro.Rmd",
+    "project_path" : "01-intro.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

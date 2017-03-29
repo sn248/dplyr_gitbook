@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "--- \ntitle: \"A `dplyr` tutorial\"\nauthor: \"sn248\"\nsite: bookdown::bookdown_site\noutput: bookdown::gitbook\ndocumentclass: book\nbibliography: [book.bib, packages.bib]\nbiblio-style: apalike\nlink-citations: yes\ngithub-repo: sn248/dplyr-tutorial\ndescription: \"This is a tutorial on the basics of R package dplyr.\"\n---\n\n# Preamble\n\n\\texttt{dplyr} is the next iteration of \\texttt{plyr} package by Hadley Wickham. Much faster than the earlier \\texttt{plyr} package, works on larger datasets. A crucial differerence is the use of pipe operator `%>%` to perform tasks in `dplyr`. Installation and use is same as other packages\n\n```{r eval=FALSE}\ndevtools::install_github(\"rstudio/bookdown\")\n```\n\nRemember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.\n\nTo compile this example to PDF, you need to install XeLaTeX.\n\n```{r include=FALSE}\n# automatically create a bib database for R packages\nknitr::write_bib(c(\n  .packages(), 'bookdown', 'knitr', 'rmarkdown'\n), 'packages.bib')\n```\n",
+    "created" : 1490541940398.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "956368882",
+    "id" : "AAA8BACA",
+    "lastKnownWriteTime" : 1490746893,
+    "last_content_update" : 1490746893495,
+    "path" : "~/Documents/Git_repos/dplyr_gitbook/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,1 @@
+This tutorial aims to show the basics of `dplyr` package and how to use it to perform data manipulation and analyis in `R`. This book is written with **bookdown** (https://github.com/rstudio/bookdown). 

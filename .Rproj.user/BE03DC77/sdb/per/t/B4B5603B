@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "This tutorial aims to show the basics of `dplyr` package and how to use it to perform data manipulation and analyis in `R`. This book is written with **bookdown** (https://github.com/rstudio/bookdown). \n",
+    "created" : 1490746085771.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3413005035",
+    "id" : "B4B5603B",
+    "lastKnownWriteTime" : 1490746211,
+    "last_content_update" : 1490746211788,
+    "path" : "~/Documents/Git_repos/dplyr_gitbook/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
