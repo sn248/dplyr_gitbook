@@ -4,4 +4,6 @@ Some _significant_ applications are demonstrated in this chapter.
 
 ## Example one
 
+This is example one.
+
 ## Example two

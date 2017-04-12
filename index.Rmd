@@ -13,7 +13,7 @@ description: "This is a tutorial on the basics of R package dplyr."
 
 # Preamble
 
-\texttt{dplyr} is the next iteration of \texttt{plyr} package by Hadley Wickham. Much faster than the earlier \texttt{plyr} package, works on larger datasets. A crucial differerence is the use of pipe operator `%>%` to perform tasks in `dplyr`. Installation and use is same as other packages
+\texttt{dplyr} is the next iteration of \texttt{plyr} package by Hadley Wickham. Much faster than the earlier \texttt{plyr} package, works on larger datasets. A crucial differerence is the use of pipe operator `%>%` to perform tasks in `dplyr`. Installation and use is same as other packages. (test)
 
 ```{r eval=FALSE}
 devtools::install_github("rstudio/bookdown")
